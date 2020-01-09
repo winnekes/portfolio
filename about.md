@@ -2,7 +2,11 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+<h1>It's-a-me, Simona</h1>
+<figure>
+	<img src="/assets/images/profile.jpeg" class="selfie" />
+</figure>
+
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
