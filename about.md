@@ -3,11 +3,12 @@ title: About
 layout: page
 ---
 
-<h1>It's-a-me, Simona</h1>
+<h1>It's-a-me</h1>
 <figure>
 	<img src="/assets/images/profile.jpeg" class="selfie" />
 </figure>
 
+<p>My name is Simona Winnekes and my portfolio is a representation of all that I've learned and enjoy.<br />I also love sharing pictures of my two silly cats!</p>
 <h2>Skills</h2>
 
 <ul class="skill-list">
