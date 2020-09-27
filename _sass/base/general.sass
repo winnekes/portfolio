@@ -1,12 +1,8 @@
-html
-	background: url(./assets/images/background.jpg) no-repeat center center fixed
-	-webkit-background-size: cover
-	-moz-background-size: cover
-	-o-background-size: cover
-	background-size: cover
+
 
 body, html
 	font-size: 62.5%
+	background:  $background
 
 body
 	line-height: 1
@@ -49,8 +45,8 @@ p
 		letter-spacing: 0.2px
 
 strong
-	font-weight: 400
-	color: #000
+	font-weight: bold
+	color: $gama
 
 ul,
 ol
@@ -91,7 +87,7 @@ hr
 	border: none
 	height: 1px
 	margin: 40px auto
-	background: #eee
+	background: #303030
 	width: 100%
 
 figure.highlight
@@ -104,7 +100,6 @@ tt
 	font-family: $fontMonospace
 	font-size: 12px
 	line-height: 20px
-	background: #fff
 	border-radius: 2px
 	border-radius: 2px
 
@@ -117,8 +112,8 @@ pre
 	font-size: 1.2rem
 	line-height: 2rem
 	overflow: auto
-	background: #fff
-	border: 1px solid $epsilon
+	background: #303030
+	border: 1px solid #000
 	border-radius: 2px
 
 .wrapper-normal,
@@ -127,7 +122,6 @@ pre
 	width: 96%
 	padding: 1rem
 	margin: 2rem auto !important
-	background: white
 
 	@media #{$mobile}
 		width: 88%
@@ -139,4 +133,4 @@ pre
 	max-width: 560px
 
 .wrapper-large
-	max-width: 810px
+	max-width: 650px
